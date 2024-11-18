@@ -43,4 +43,4 @@ cd ras-pi-oled-display-controller
 sudo docker compose up -d
 ```
 
-Note: Make sure you've enabled I2C and SPI interface in `raspi-config`.
+Note: Make sure you've enabled I2C and SPI interfaces in `raspi-config`.
