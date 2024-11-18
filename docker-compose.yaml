@@ -1,0 +1,12 @@
+services:
+  stats-app:
+    build: .
+    container_name: stats-app
+    privileged: true
+    devices:
+      - "/dev/gpiomem:/dev/gpiomem"
+      - "/dev/mem:/dev/mem"
+    volumes:
+      - /usr/bin/uptime:/usr/bin/uptime
+    network_mode: "host"
+    restart: unless-stopped
