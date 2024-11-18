@@ -42,3 +42,5 @@ git clone https://github.com/yourusername/ras-pi-oled-display-controller.git
 cd ras-pi-oled-display-controller
 sudo docker compose up -d
 ```
+
+Note: Make sure you've enabled I2C and SPI interface in `raspi-config`.
